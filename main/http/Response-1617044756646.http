@@ -1,0 +1,12 @@
+HTTP/1.1 400 Bad Request
+Date: Mon, 29 Mar 2021 19:05:40 GMT
+Server: WSGIServer/0.2 CPython/3.8.5
+Content-Type: application/json
+Vary: Accept
+Allow: GET, POST, HEAD, OPTIONS
+X-Frame-Options: DENY
+Content-Length: 75
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+{"non_field_errors":["You can not create because you are not a superuser"]}
